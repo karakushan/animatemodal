@@ -22,6 +22,7 @@
                     $('body').css({
                         overflow: "auto"
                     })
+                    modalContent.removeClass(opt.animate);
                 }
 
             });
