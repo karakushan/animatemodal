@@ -4,6 +4,9 @@
 * Библиотека JQuery
 * animate.css https://daneden.github.io/animate.css/ (только в том случае если нужна анимация появления окна)
 
+## Демо
+<https://karakushan.github.io/animatemodal/>
+
 ## Подключение
 для работы необходимо подключить эти файлы:
 
