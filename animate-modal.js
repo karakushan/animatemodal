@@ -3,7 +3,8 @@
 
         var opt = $.extend({
             offset: 20,
-            animate: false
+            animate: false,
+            width: 600
         }, options);
         return this.each(function () {
             var el = this;
@@ -14,7 +15,6 @@
             var contentOffset = opt.offset * 2;
 
             $(modal).on('click', function (e) {
-                e.preventDefault();
                 if ($(modal).has(e.target).length === 0) {
                     $(modal).css({
                         display: "none"
@@ -39,7 +39,8 @@
                     })
                 } else {
                     modalContent.css({
-                        "margin-left": -( modalContent.width() / 2) + 'px'
+                        width: opt.width + 'px',
+                        "margin-left": -( opt.width / 2) + 'px'
                     })
                 }
                 $(modal).css({
