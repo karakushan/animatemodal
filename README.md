@@ -23,6 +23,7 @@
 ```html
  <div class="modal" id="modal-suport">
    <div class="modal-content" >
+   <button class="modal-close" data-action="modal-close"></button>
      <!-- здесь содержимое модального окна -->
    </div>
  </div>
