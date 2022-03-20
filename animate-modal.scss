@@ -8,15 +8,14 @@
   height: 100%;
   display: none;
   z-index: 9999;
+  justify-content: center;
+  align-items: center;
+
   .modal-content {
     width: 600px;
+    max-width: 100%;
     display: block;
     z-index: 2;
-    position: absolute;
-    left: 50%;
-    top: 25%;
-    max-width: 100%;
     background-color: #fff;
-    margin: 15px;
   }
 }
